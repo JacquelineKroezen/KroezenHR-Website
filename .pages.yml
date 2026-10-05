@@ -1,0 +1,103 @@
+media:
+  input: src/images
+  output: /images
+
+content:
+  - name: teksten
+    label: Teksten website
+    type: file
+    path: src/_data/site.yml
+    format: yaml
+    fields:
+      - name: contact
+        label: Contactgegevens
+        type: object
+        fields:
+          - { name: email, label: E-mailadres, type: string }
+          - { name: telefoon, label: Telefoonnummer, type: string, description: "Bijvoorbeeld 06 12 34 56 78" }
+          - { name: linkedin, label: LinkedIn-link, type: string, description: "Volledige link, beginnend met https://" }
+          - { name: kvk, label: KvK-nummer, type: string }
+
+      - name: hero
+        label: Bovenkant (met foto)
+        type: object
+        fields:
+          - { name: bovenregel, label: Kleine regel boven de kop, type: string }
+          - { name: titel_regel_1, label: "Kop – regel 1", type: string }
+          - { name: titel_cursief, label: "Kop – regel 2 (groen, schuin)", type: string }
+          - { name: titel_regel_3, label: "Kop – regel 3", type: string }
+          - { name: ondertitel, label: Ondertitel (vet), type: string }
+          - { name: intro, label: Introductietekst, type: text }
+          - { name: vinkjes, label: Punten met vinkje, type: string, list: true }
+          - { name: knop, label: Tekst op de knop, type: string }
+          - { name: foto, label: Foto, type: image }
+          - { name: foto_naam, label: Naam onder de foto, type: string }
+          - { name: foto_onderschrift, label: Regel onder de naam, type: string }
+
+      - name: kernwaarden
+        label: Strook met kernwaarden
+        type: string
+        list: true
+
+      - name: diensten
+        label: Waarvoor ben ik inzetbaar?
+        type: object
+        fields:
+          - { name: bovenregel, label: Kleine regel boven de kop, type: string }
+          - { name: titel, label: Kop, type: text, description: "Enter = nieuwe regel" }
+          - name: items
+            label: Diensten (kolommen)
+            type: object
+            list: true
+            fields:
+              - { name: titel, label: Titel, type: text, description: "Enter = nieuwe regel" }
+              - { name: intro, label: Inleiding, type: text }
+              - name: punten
+                label: Opsomming
+                type: object
+                list: true
+                fields:
+                  - { name: kop, label: Vetgedrukt begin, type: string }
+                  - { name: tekst, label: Tekst, type: text }
+              - { name: slot, label: Tekst onder de opsomming (optioneel), type: text }
+
+      - name: visie
+        label: Visie & achtergrond (donker blok)
+        type: object
+        fields:
+          - { name: bovenregel, label: Kleine regel boven de kop, type: string }
+          - { name: titel, label: Kop, type: text, description: "Enter = nieuwe regel" }
+          - { name: intro, label: Inleiding, type: text }
+          - name: kolommen
+            label: Kolommen
+            type: object
+            list: true
+            fields:
+              - { name: bovenregel, label: Kleine regel, type: string }
+              - { name: titel, label: Titel, type: string }
+              - { name: tekst, label: Tekst, type: text, description: "Lege regel = nieuwe alinea" }
+
+      - name: aanpak
+        label: Mijn aanpak (lichtgroen blok)
+        type: object
+        fields:
+          - { name: bovenregel, label: Kleine regel boven de kop, type: string }
+          - { name: titel, label: Kop, type: text, description: "Enter = nieuwe regel" }
+          - { name: citaat, label: Citaat (groen, schuin), type: text, description: "Enter = nieuwe regel" }
+          - { name: intro, label: Eerste alinea (iets groter), type: text }
+          - { name: tekst, label: Overige tekst, type: text, description: "Lege regel = nieuwe alinea" }
+
+      - name: kennismaken
+        label: Kennismaken
+        type: object
+        fields:
+          - { name: bovenregel, label: Kleine regel boven de kop, type: string }
+          - { name: titel, label: Kop, type: text, description: "Enter = nieuwe regel" }
+          - { name: tekst, label: Tekst, type: text }
+          - { name: linkedin_tekst, label: Tekst bij LinkedIn-link, type: string }
+
+      - name: footer
+        label: Onderkant
+        type: object
+        fields:
+          - { name: tekst, label: Tekst in de footer, type: string }

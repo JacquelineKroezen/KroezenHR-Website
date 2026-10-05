@@ -1,0 +1,157 @@
+---
+permalink: /index.html
+---
+{%- set c = site.contact -%}
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kroezen HR – {{ site.hero.ondertitel }}</title>
+  <meta name="description" content="{{ site.hero.intro }}">
+  <link rel="canonical" href="https://www.kroezenhr.nl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kroezen HR – {{ site.hero.titel_regel_1 }} {{ site.hero.titel_cursief }} {{ site.hero.titel_regel_3 }}">
+  <meta property="og:description" content="{{ site.hero.ondertitel }}">
+  <meta property="og:url" content="https://www.kroezenhr.nl/">
+  <meta property="og:image" content="https://www.kroezenhr.nl{{ site.hero.foto }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <header class="site-header wrap">
+    <a class="logo" href="#top"><img src="/images/logo.svg" alt="Kroezen HR – Interim HR | HR advies" width="613" height="180"></a>
+    <nav class="nav" aria-label="Hoofdmenu">
+      <a href="#diensten">Waar ik bij help</a>
+      <a href="#visie">Over Jacqueline</a>
+      <a class="nav-cta" href="#contact">Kennismaken <span class="arrow" aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">{{ site.hero.bovenregel }}</p>
+        <h1>{{ site.hero.titel_regel_1 }}<br><em>{{ site.hero.titel_cursief }}</em><br>{{ site.hero.titel_regel_3 }}</h1>
+        <p class="hero-sub">{{ site.hero.ondertitel }}</p>
+        <p class="hero-intro">{{ site.hero.intro }}</p>
+        <ul class="checks">
+          {%- for v in site.hero.vinkjes %}
+          <li>{{ v }}</li>
+          {%- endfor %}
+        </ul>
+        <a class="btn" href="#contact">{{ site.hero.knop }} <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <figure class="hero-photo">
+        <img src="{{ site.hero.foto }}" alt="Portret van {{ site.hero.foto_naam }}" width="800" height="800">
+        <figcaption>
+          <strong>{{ site.hero.foto_naam }}</strong>
+          <span>{{ site.hero.foto_onderschrift }}</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    {%- if site.kernwaarden and site.kernwaarden.length %}
+    <div class="band">
+      <div class="wrap band-inner">
+        {%- for k in site.kernwaarden %}
+        <span>{{ k }}</span>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endif %}
+
+    <section class="section wrap" id="diensten">
+      <div class="intro-grid">
+        <div>
+          <p class="eyebrow">{{ site.diensten.bovenregel }}</p>
+          <h2>{{ site.diensten.titel | regels | safe }}</h2>
+        </div>
+      </div>
+
+      <div class="cols-3">
+        {%- for d in site.diensten.items %}
+        <article class="service">
+          <span class="num">{{ "0" if loop.index < 10 }}{{ loop.index }}</span>
+          <h3>{{ d.titel | regels | safe }}</h3>
+          {%- if d.intro %}
+          <p>{{ d.intro }}</p>
+          {%- endif %}
+          {%- if d.punten and d.punten.length %}
+          <ul>
+            {%- for p in d.punten %}
+            <li>{% if p.kop %}<strong>{{ p.kop }}:</strong> {% endif %}{{ p.tekst }}</li>
+            {%- endfor %}
+          </ul>
+          {%- endif %}
+          {{ d.slot | alineas | safe }}
+        </article>
+        {%- endfor %}
+      </div>
+    </section>
+
+    <section class="dark" id="visie">
+      <div class="wrap section">
+        <p class="eyebrow">{{ site.visie.bovenregel }}</p>
+        <h2>{{ site.visie.titel | regels | safe }}</h2>
+        <p class="lead">{{ site.visie.intro }}</p>
+
+        <div class="cols-2">
+          {%- for k in site.visie.kolommen %}
+          <article>
+            <p class="eyebrow small">{{ k.bovenregel }}</p>
+            <h3>{{ k.titel }}</h3>
+            {{ k.tekst | alineas | safe }}
+          </article>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="sage" id="aanpak">
+      <div class="section wrap about">
+        <div>
+          <p class="eyebrow">{{ site.aanpak.bovenregel }}</p>
+          <h2>{{ site.aanpak.titel | regels | safe }}</h2>
+          <p class="quote">{{ site.aanpak.citaat | regels | safe }}</p>
+        </div>
+        <div>
+          <p class="about-lead">{{ site.aanpak.intro }}</p>
+          {{ site.aanpak.tekst | alineas | safe }}
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap section center">
+        <p class="eyebrow">{{ site.kennismaken.bovenregel }}</p>
+        <h2>{{ site.kennismaken.titel | regels | safe }}</h2>
+        <p class="contact-text">{{ site.kennismaken.tekst }}</p>
+        <div class="contact-actions">
+          {%- if c.email %}
+          <a class="btn" href="mailto:{{ c.email }}">E-mail: {{ c.email }} <span class="arrow" aria-hidden="true">↗</span></a>
+          {%- endif %}
+          {%- if c.telefoon %}
+          <a class="btn btn-outline" href="tel:{{ c.telefoon | tel }}">Bel: {{ c.telefoon }}</a>
+          {%- endif %}
+        </div>
+        {%- if c.linkedin %}
+        <a class="text-link" href="{{ c.linkedin }}" target="_blank" rel="noopener">{{ site.kennismaken.linkedin_tekst }} <span class="arrow" aria-hidden="true">↗</span></a>
+        {%- endif %}
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="logo logo-footer" href="#top"><img src="/images/logo.svg" alt="Kroezen HR" width="613" height="180"></a>
+    <p>{{ site.footer.tekst }}{% if c.kvk %} · KvK {{ c.kvk }}{% endif %}</p>
+    {%- if c.linkedin %}
+    <a href="{{ c.linkedin }}" target="_blank" rel="noopener">Jacqueline op LinkedIn <span class="arrow" aria-hidden="true">↗</span></a>
+    {%- endif %}
+  </footer>
+
+</body>
+</html>

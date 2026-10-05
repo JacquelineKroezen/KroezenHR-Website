@@ -1,0 +1,116 @@
+# Alle teksten van de website. Aanpassen kan via Pages CMS (app.pagescms.org).
+# Tip: een lege regel in een tekstvak maakt een nieuwe alinea;
+# in koppen maakt een enter een nieuwe regel.
+
+contact:
+  email: info@kroezenhr.nl
+  telefoon: 06 00 00 00 00
+  linkedin: https://www.linkedin.com/
+  kvk: "00000000"
+
+hero:
+  bovenregel: Jacqueline Kroezen · HR-advies & interim
+  titel_regel_1: Oog voor mensen.
+  titel_cursief: Daadkracht
+  titel_regel_3: in HR.
+  ondertitel: Van HR-strategie tot concrete uitvoering op de werkvloer.
+  intro: Zoekt u ervaren HR-ondersteuning of tijdelijke versterking? Ik geef helder advies én zorg dat het ook echt gebeurt. Snel ingewerkt, nuchter en met oog voor mensen.
+  vinkjes:
+    - Grip krijgen op verzuim
+    - Interim HR
+    - HR op afroep
+  knop: Neem contact op
+  foto: /images/jacqueline-kroezen.jpg
+  foto_naam: Jacqueline Kroezen
+  foto_onderschrift: Pragmatisch. Nuchter. Resultaatgericht.
+
+kernwaarden:
+  - Menselijk in contact
+  - Helder in richting
+  - Daadkrachtig in uitvoering
+
+diensten:
+  bovenregel: Van strategie tot uitvoering
+  titel: |-
+    Waarvoor ben ik
+    inzetbaar?
+  items:
+    - titel: |-
+        Grip krijgen
+        op verzuim
+      intro: "Verzuim vraagt om een daadkrachtige en zorgvuldige benadering. Ik help uw organisatie met:"
+      punten:
+        - kop: Casemanagement
+          tekst: Volledige begeleiding van lopende verzuimdossiers volgens de wet- en regelgeving.
+        - kop: Verzuimpreventie
+          tekst: Het vroegtijdig signaleren van risico's en het adviseren van management en directie om uitval te voorkomen.
+        - kop: Verzuimbeleid
+          tekst: Het opzetten of aanscherpen van een helder en werkbaar verzuimprotocol.
+      slot: ""
+    - titel: |-
+        Interim
+        HR
+      intro: "Als interim HR-professional ben ik snel up-to-speed en functioneer ik direct als volwaardig aanspreekpunt voor uw directie, management en medewerkers. U kunt mij inschakelen voor:"
+      punten:
+        - kop: Tijdelijke vervanging & opschaling
+          tekst: Directe operationele en strategische ondersteuning bij onderbezetting door zwangerschapsverlof, langdurige ziekte of om extra capaciteit op te vangen tijdens piekmomenten.
+        - kop: Projectmanagement
+          tekst: Het begeleiden van specifieke HR-projecten, zoals een reorganisatie, harmonisatie van arbeidsvoorwaarden of het up-to-date brengen van het personeelshandboek en HR-reglementen.
+      slot: Of uw organisatie nu hard groeit en snel moet opschalen, of dat er juist behoefte is om de basis weer goed op orde te brengen; ik zorg voor een gestructureerde aanpak, heldere communicatie en een vlekkeloze uitvoering.
+    - titel: |-
+        HR op
+        afroep
+      intro: Heeft u geen behoefte aan een vaste HR-manager, maar wel af en toe aan ervaren HR-expertise? Met HR op afroep schakelt u mij flexibel in als sparringpartner en voor ad-hoc HR-vraagstukken.
+      punten:
+        - kop: Strategisch klankbord
+          tekst: Sparren met directie of management over complexe personele vraagstukken of organisatieverandering.
+        - kop: Ad-hoc ondersteuning
+          tekst: Directe hulp bij acute kwesties, zoals een complex verzuim- of ontslagdossier of een arbeidsconflict.
+        - kop: Flexibele inzet
+          tekst: U bepaalt wanneer en waarvoor u expertise nodig heeft—van een paar uur per maand tot projectmatige inzet.
+      slot: ""
+
+visie:
+  bovenregel: Visie & achtergrond
+  titel: |-
+    HR die mensen én
+    de business vooruithelpt.
+  intro: Binnen organisaties moeten HR-beslissingen niet alleen juridisch en menselijk kloppen, maar ook de business vooruithelpen.
+  kolommen:
+    - bovenregel: Ervaring
+      titel: HR-expertise en commercieel realisme
+      tekst: |-
+        Met ruim 20 jaar ervaring als HR Manager/Business Partner en een stevig fundament van 17 jaar in de uitzendbranche (als vestigings-, regio- en commercieel manager), breng ik een unieke combinatie van HR-expertise en commercieel realisme mee.
+
+        Ik spreek de taal van de ondernemer en de organisatie en begrijp dat HR praktisch moet zijn en direct operationele opvolging vereist.
+    - bovenregel: Mijn kracht
+      titel: Twee werelden verbinden
+      tekst: |-
+        Mijn kracht ligt in het verbinden van twee werelden. Ik verplaats me moeiteloos in de positie van zowel de werkgever als de werknemer. Juist in dynamische organisaties, waar resultaat en de menselijke kant van het ondernemen samenkomen, is die balans essentieel voor rust, motivatie en continuïteit.
+
+        Of er nu sprake is van een tijdelijk capaciteitstekort, een gewenste professionalisering of een noodzakelijke herstructurering; ik stap snel in en zorg voor een aanpak die werkt voor uw specifieke situatie.
+
+aanpak:
+  bovenregel: Mijn aanpak
+  titel: |-
+    Pragmatisch, nuchter
+    en resultaatgericht.
+  citaat: |-
+    Ik kijk niet toe
+    vanaf de zijlijn.
+  intro: Uiteraard werk ik vanuit actuele wet- en regelgeving en bewezen HR-methodieken, maar bij mij blijft het nooit bij alleen advies of theorie.
+  tekst: |-
+    Ik vertaal complexe materie direct naar praktische, werkbare oplossingen die passen bij uw organisatie. Ik kijk niet toe vanaf de zijlijn; de daadwerkelijke realisatie pak ik direct op.
+
+    Als verbindende factor tussen het management en de werkvloer zorg ik voor een strak fundament, zodat u zich weer volledig kunt focussen op ondernemen.
+
+kennismaken:
+  bovenregel: Even kennismaken?
+  titel: |-
+    Wat speelt er
+    in uw organisatie?
+  tekst: Zoekt u tijdelijke versterking, grip op verzuim of een ervaren sparringpartner? Ik hoor graag wat er speelt en bespreek met u waar ik kan helpen.
+  linkedin_tekst: Of neem contact op via LinkedIn
+
+footer:
+  tekst: HR-advies & interim HR

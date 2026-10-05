@@ -1,0 +1,13 @@
+{
+  "name": "kroezen-hr-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --port 8123"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "js-yaml": "^5.4.2"
+  }
+}
