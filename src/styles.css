@@ -105,12 +105,13 @@ h3 { font-size: 26px; line-height: 1.2; margin-bottom: 18px; }
 .btn-outline { background: transparent; color: var(--ink); border: 1px solid var(--dark); }
 .btn-outline:hover { background: var(--dark); color: #fff; }
 
-.hero-photo { margin: 0; }
+.hero-photo { margin: 0; width: 80%; justify-self: end; }
 .hero-photo img {
   width: 100%;
-  aspect-ratio: 383 / 550;
+  height: auto;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: 55% 30%;
+  object-position: 50% 40%;
   border-radius: 999px 999px 4px 4px;
 }
 .hero-photo figcaption { margin-top: 26px; font-size: 12px; line-height: 1.6; }
@@ -179,7 +180,7 @@ h3 { font-size: 26px; line-height: 1.2; margin-bottom: 18px; }
   .site-header::after, .site-footer::before { left: 24px; right: 24px; }
   .nav a:not(.nav-cta) { display: none; }
   .hero, .cols-2, .about { grid-template-columns: 1fr; gap: 48px; }
-  .hero-photo { max-width: 420px; }
+  .hero-photo { width: 100%; max-width: 340px; justify-self: start; }
   .cols-3 { grid-template-columns: 1fr; gap: 48px; }
   .section { padding-top: 72px; padding-bottom: 72px; }
   .band-inner { grid-template-columns: 1fr; }
