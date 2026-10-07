@@ -9,7 +9,7 @@ hero:
   titel_cursief: Daadkracht
   titel_regel_3: in HR.
   ondertitel: Van HR-strategie tot concrete uitvoering op de werkvloer.
-  intro: Zoekt u ervaren HR-ondersteuning of tijdelijke versterking? Ik geef
+  intro: Op zoek naar ervaren HR-ondersteuning of tijdelijke versterking? Ik geef
     helder advies én zorg dat het ook echt gebeurt. Snel ingewerkt, nuchter, oog
     voor mensen met een ondernemende blik.
   vinkjes:
@@ -33,8 +33,9 @@ diensten:
     - titel: |-
         Grip krijgen
         op verzuim
-      intro: "Verzuim vraagt om een daadkrachtige en zorgvuldige benadering. Ik help
-        uw organisatie met:"
+      intro: Verzuim vraagt om een daadkrachtige en zorgvuldige aanpak. Ik help
+        organisaties om verzuim goed aan te pakken en medewerkers duurzaam
+        inzetbaar te houden.
       punten:
         - kop: Casemanagement
           tekst: Volledige begeleiding van lopende verzuimdossiers volgens de wet- en
@@ -47,9 +48,9 @@ diensten:
     - titel: |-
         Interim
         HR
-      intro: "Als interim HR-professional ben ik snel up-to-speed en functioneer ik
-        direct als volwaardig aanspreekpunt voor uw directie, management en
-        medewerkers. U kunt mij inschakelen voor:"
+      intro: "Als interim HR-professional ben ik snel up-to-speed en sta ik direct
+        naast directie, management en medewerkers. Praktisch, betrokken en
+        resultaatgericht. Inzetbaar voor:"
       punten:
         - kop: Tijdelijke vervanging & opschaling
           tekst: Directe operationele en strategische ondersteuning bij onderbezetting
@@ -59,16 +60,15 @@ diensten:
           tekst: Het begeleiden van specifieke HR-projecten, zoals een reorganisatie,
             harmonisatie van arbeidsvoorwaarden of het up-to-date brengen van
             het personeelshandboek en HR-reglementen.
-      slot: Of uw organisatie nu hard groeit en snel moet opschalen, of dat er juist
-        behoefte is om de basis weer goed op orde te brengen; ik zorg voor een
-        gestructureerde aanpak, heldere communicatie en een vlekkeloze
-        uitvoering.
+      slot: "Of het nu gaat om snelle groei, opschaling of het weer op orde brengen
+        van de HR-basis: ik zorg voor structuur, duidelijke communicatie en een
+        aanpak die werkt."
     - titel: |-
         HR op
         afroep
-      intro: Heeft u geen behoefte aan een vaste HR-manager, maar wel af en toe aan
-        ervaren HR-expertise? Met HR op afroep schakelt u mij flexibel in als
-        sparringpartner en voor ad-hoc HR-vraagstukken.
+      intro: Geen vaste HR-manager nodig, maar wel behoefte aan ervaren HR-expertise
+        wanneer het nodig is? Met HR op afroep ben ik flexibel inzetbaar als
+        sparringpartner en voor praktische HR-vraagstukken.
       punten:
         - kop: Strategisch klankbord
           tekst: Sparren met directie of management over complexe personele vraagstukken
@@ -77,12 +77,12 @@ diensten:
           tekst: Directe hulp bij acute kwesties, zoals een complex verzuim- of
             ontslagdossier of een arbeidsconflict.
         - kop: Flexibele inzet
-          tekst: U bepaalt wanneer en waarvoor u expertise nodig heeft—van een paar uur
-            per maand tot projectmatige inzet.
+          tekst: Flexibele inzet wanneer dat nodig is – van een paar uur per maand tot
+            ondersteuning bij een specifiek HR-project.
 visie:
   bovenregel: Visie & achtergrond
   titel: |-
-    HR die mensen én
+    HR die mensen en
     de business vooruithelpt.
   intro: Binnen organisaties moeten HR-beslissingen niet alleen juridisch en
     menselijk kloppen, maar ook de business vooruithelpen.
@@ -108,9 +108,9 @@ visie:
         continuïteit.
 
 
-        Of er nu sprake is van een tijdelijk capaciteitstekort, een gewenste
-        professionalisering of een noodzakelijke herstructurering; ik stap snel
-        in en zorg voor een aanpak die werkt voor uw specifieke situatie.
+        Of het nu gaat om een tijdelijk capaciteitstekort, verdere
+        professionalisering of een noodzakelijke herstructurering: ik stap snel
+        in, zorg voor struktuur en een aanpak die past bij de situatie.
 aanpak:
   bovenregel: Mijn aanpak
   titel: |-
@@ -122,20 +122,22 @@ aanpak:
   intro: Uiteraard werk ik vanuit actuele wet- en regelgeving en bewezen
     HR-methodieken, maar bij mij blijft het nooit bij alleen advies of theorie.
   tekst: >-
-    Ik vertaal complexe materie direct naar praktische, werkbare oplossingen die
-    passen bij uw organisatie. Ik kijk niet toe vanaf de zijlijn; de
-    daadwerkelijke realisatie pak ik direct op.
+    Ik vertaal complexe HR-vraagstukken naar praktische, werkbare oplossingen
+    die passen bij de organisatie. Geen advies vanaf de zijlijn, maar direct aan
+    de slag met de uitvoering en realisatie.
 
 
-    Als verbindende factor tussen het management en de werkvloer zorg ik voor
-    een strak fundament, zodat u zich weer volledig kunt focussen op ondernemen.
+    Als verbindende factor tussen management en werkvloer zorg ik voor
+    struktuur, duidelijkheid en een stevig HR-fundament. Zo ontstaat ruimte om
+    te focussen op wat echt belangrijk is: ondernemen, resultaat behalen en de
+    business vooruithelpen.
 kennismaken:
-  bovenregel: Even kennismaken?
+  bovenregel: Een HR-vraagstuk? Neem contact op.
   titel: |-
     Wat speelt er
-    in uw organisatie?
-  tekst: "Zoekt u tijdelijke versterking, grip op verzuim of een ervaren
-    sparringpartner? Ik denk graag met u mee. "
+    binnen de organisatie?
+  tekst: Tijdelijke HR-versterking nodig, grip op verzuim of gewoon behoefte aan
+    een ervaren sparringpartner? Ik denk mee en pak door.
   linkedin_tekst: Of neem contact op via LinkedIn
 footer:
   tekst: HR-advies & interim HR
